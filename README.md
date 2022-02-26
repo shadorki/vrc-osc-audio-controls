@@ -4,7 +4,17 @@ A go program to control your audio using VRChat OSC Parameters
 
 ## Usage
 
-Download the executable from the releases page and double-click!
+1. Download the executable from the [releases](https://github.com/uzair-ashraf/vrc-osc-audio-controls/releases) page and double-click to run. (You may have to restart the application if you started the server before VRChat)
+
+1. Set your avatar up with the following avatar parameters. (The names must be exact)
+
+    - OSC_AUDIO_CONTROLS_MUTE: bool
+    - OSC_AUDIO_CONTROLS_PREVIOUS: bool
+    - OSC_AUDIO_CONTROLS_NEXT: bool
+    - OSC_AUDIO_CONTROLS_PLAY_PAUSE: bool
+
+1. Add the buttons to your avatar menu and you should be good to go!
+
 
 ## Contributing
 
